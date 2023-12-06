@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: micromongo
+
+  data:
+    mongodb:
+      database: micromongo
+      uri: mongodb://host.docker.internal:27017/micromongo
