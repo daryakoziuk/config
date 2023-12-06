@@ -61,4 +61,4 @@ logging:
 app:
   logging:
     enabled: true
-    level: INFO
+    level: TRACE
