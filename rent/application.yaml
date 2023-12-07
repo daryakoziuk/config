@@ -7,7 +7,6 @@ service:
   geolocation:
     url: http://micromongo:8081/location
 
-
 spring:
   application:
     name: rent
