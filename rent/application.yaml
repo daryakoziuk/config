@@ -40,7 +40,7 @@ spring:
       exchange: location
       routing-key: location
     host: localhost
-    port: 5672
+    port: 5671
 
 rabbitmq:
   queue: queue
