@@ -8,6 +8,8 @@ service:
     url: http://micromongo:8081/location
 
 spring:
+  main:
+    allow-bean-definition-overriding: true
   application:
     name: rent
   datasource:
