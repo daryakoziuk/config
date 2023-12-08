@@ -20,7 +20,7 @@ spring:
     template:
       exchange: location
       routing-key: location
-    host: rabbitmq
+    host: host.docker.internal
     port: 5672
 
   data:
