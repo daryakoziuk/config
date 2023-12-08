@@ -5,7 +5,28 @@ spring:
   application:
     name: micromongo
 
+  rabbitmq:
+    listener:
+      simple:
+        retry:
+          enabled: true
+          max-attempts: 5
+          multiplier: 2
+
+        max-concurrency: 5
+        concurrency: 5
+    username: guest
+    password: guest
+    template:
+      exchange: location
+      routing-key: location
+    host: localhost
+    port: 5672
+
   data:
     mongodb:
       database: micromongo
       uri: mongodb://host.docker.internal:27017/micromongo
+
+rabbitmq:
+  queue: queue

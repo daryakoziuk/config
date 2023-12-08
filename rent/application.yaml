@@ -42,6 +42,9 @@ spring:
     host: localhost
     port: 5672
 
+rabbitmq:
+  queue: queue
+
 
 
 security:
