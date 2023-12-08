@@ -20,7 +20,7 @@ spring:
     template:
       exchange: location
       routing-key: location
-    host: localhost
+    host: host.docker.internal
     port: 5671
 
   data:
