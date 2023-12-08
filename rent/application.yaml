@@ -40,12 +40,10 @@ spring:
       exchange: location
       routing-key: location
     host: localhost
-    port: 5671
+    port: 5672
 
 rabbitmq:
   queue: queue
-
-
 
 security:
   jwt: javaintensive
