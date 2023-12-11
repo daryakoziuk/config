@@ -31,5 +31,6 @@ rabbitmq:
   queue: queue
   queue_get: queueGet
   exchange: application
+  exchange_get: applicationGet
   routing-key: application
   routing-key_get: applicationGet
