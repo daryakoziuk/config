@@ -29,5 +29,7 @@ spring:
 
 rabbitmq:
   queue: queue
+  queue_get: queueGet
   exchange: application
   routing-key: application
+  routing-key_get: applicationGet
