@@ -38,14 +38,13 @@ spring:
         concurrency: 5
     username: guest
     password: guest
-    template:
-      exchange: location
-      routing-key: location
     host: host.docker.internal
     port: 5672
 
 rabbitmq:
   queue: queue
+  exchange: application
+  routing-key: application
 
 security:
   jwt: javaintensive
