@@ -6,6 +6,8 @@ management:
 service:
   geolocation:
     url: http://micromongo:8081/location
+  accident:
+    url: http://accident:8082/api/v1
 
 spring:
   main:
