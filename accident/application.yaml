@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: accident
+
+    data:
+    mongodb:
+      database: accident
+      uri: mongodb://host.docker.internal:27017/accident
+
+
