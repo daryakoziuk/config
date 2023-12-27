@@ -10,6 +10,6 @@ spring:
     data:
     mongodb:
       database: accident
-      uri: mongodb2://host.docker.internal:27018/accident
+      uri: mongodb://host.docker.internal:27018/accident
 
 
