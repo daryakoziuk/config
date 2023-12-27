@@ -12,4 +12,6 @@ spring:
       database: accident
       uri: mongodb://host.docker.internal:27017/accident
 
-
+service:
+  accident:
+    url: http://accident:8082
