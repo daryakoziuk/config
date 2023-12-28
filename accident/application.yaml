@@ -7,7 +7,7 @@ spring:
   application:
     name: accident
 
-    data:
+  data:
     mongodb:
       database: accident
       uri: mongodb://host.docker.internal:27018/accident
