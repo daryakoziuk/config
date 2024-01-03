@@ -3,7 +3,9 @@ spring:
     active: local, prod
 ---
 spring:
-  profiles: prod
+  config:
+    activate:
+      on-profile: local
   main:
     allow-bean-definition-overriding: true
   application:
@@ -17,15 +19,9 @@ server:
   port: 8082
 ---
 spring:
-  profiles: local
-  main:
-    allow-bean-definition-overriding: true
-  application:
-    name: accident
-  data:
-    mongodb:
-      database: accident
-      uri: mongodb://host.docker.internal:27018/accident
+  config:
+    activate:
+      on-profile: prod
 
 server:
   port: 8083
