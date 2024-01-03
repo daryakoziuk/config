@@ -1,11 +1,9 @@
 spring:
   profiles:
-    active: "local, prod"
+    active: local
 ---
 spring:
-  config:
-    activate:
-      on-profile: local
+  profiles: local
   main:
     allow-bean-definition-overriding: true
   application:
@@ -19,9 +17,8 @@ server:
   port: 8082
 ---
 spring:
-  config:
-    activate:
-      on-profile: prod
+  profiles: prod
+
 
 server:
   port: 8083
