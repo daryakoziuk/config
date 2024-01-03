@@ -1,27 +1,16 @@
+server:
+  port: 8082
+
 spring:
-  profiles:
-    active: local
----
-spring:
-  profiles: local
   main:
     allow-bean-definition-overriding: true
   application:
     name: accident
+
   data:
     mongodb:
       database: accident
       uri: mongodb://host.docker.internal:27018/accident
-
-server:
-  port: 8082
----
-spring:
-  profiles: prod
-
-
-server:
-  port: 8083
 
 
 
