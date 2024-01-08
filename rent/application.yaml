@@ -51,12 +51,6 @@ rabbitmq:
   routing-key: application
   routing-key_get: applicationGet
 
-security:
-  jwt: javaintensive
-
-api:
-  key: 91911d7a0bbe4df9b7491c90511e6e8c
-
 logging:
   file:
     name: internship.log

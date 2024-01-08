@@ -4,6 +4,7 @@ spring:
   application:
     name: accident
 
+
   data:
     mongodb:
       database: accident
