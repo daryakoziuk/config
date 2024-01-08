@@ -19,13 +19,13 @@ spring:
         concurrency: 5
     username: guest
     password: guest
-    host: host.docker.internal
+    host: rabbitmq
     port: 5672
 
   data:
     mongodb:
       database: micromongo
-      uri: mongodb://host.docker.internal:27017/micromongo
+      uri: mongodb://mongodb:27017/micromongo
 
 rabbitmq:
   queue: queue
