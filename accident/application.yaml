@@ -7,7 +7,7 @@ spring:
   data:
     mongodb:
       database: accident
-      uri: mongodb://mongo:27018/accident
+      uri: mongodb://mongodb2:27018/accident
 
 
 
