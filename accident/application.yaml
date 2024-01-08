@@ -4,11 +4,12 @@ spring:
   application:
     name: accident
 
-
   data:
     mongodb:
       database: accident
       uri: mongodb://mongodb2:27018/accident
 
+server:
+  port:8083
 
 
