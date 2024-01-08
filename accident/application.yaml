@@ -10,6 +10,6 @@ spring:
       uri: mongodb://mongodb2:27018/accident
 
 server:
-  port:8083
+  port: 8083
 
 
