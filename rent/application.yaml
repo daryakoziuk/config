@@ -3,12 +3,6 @@ management:
     shutdown:
       enabled: true
 
-service:
-  geolocation:
-    url: http://micromongo:8081/location
-  accident:
-    url: http://accident:8082/api/v1
-
 spring:
   main:
     allow-bean-definition-overriding: true
@@ -54,17 +48,10 @@ rabbitmq:
 security:
   jwt: javaintensive
 
-api:
-  key: 91911d7a0bbe4df9b7491c90511e6e8c
-
 logging:
   file:
-    name: internship.log
+    name: rent.log
     path: /
   level:
-    root: info
+    root: TRACE
 
-app:
-  logging:
-    enabled: true
-    level: TRACE

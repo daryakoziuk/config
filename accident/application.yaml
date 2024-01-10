@@ -3,7 +3,6 @@ spring:
     allow-bean-definition-overriding: true
   application:
     name: accident
-
   data:
     mongodb:
       database: accident
@@ -12,4 +11,9 @@ spring:
 server:
   port: 8083
 
-
+logging:
+  file:
+    name: accident.log
+    path: /
+  level:
+    root: TRACE
