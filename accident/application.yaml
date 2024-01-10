@@ -16,4 +16,4 @@ logging:
     name: accident.log
     path: /
   level:
-    root: TRACE
+    root: INFO

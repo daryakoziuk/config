@@ -53,5 +53,5 @@ logging:
     name: rent.log
     path: /
   level:
-    root: TRACE
+    root: INFO
 

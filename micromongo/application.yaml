@@ -38,4 +38,4 @@ logging:
     name: micromongo.log
     path: /
   level:
-    root: TRACE
+    root: INFO
